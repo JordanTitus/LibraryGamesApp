@@ -1,0 +1,188 @@
+{
+  "000": {
+    "description": "Computer science, information & general works",
+    "children": {
+      "010": {
+        "description": "Bibliographies",
+        "children": {
+          "011": "Bibliographies and Catalogues",
+          "012": "Bibliographies and Catalogs of individuals",
+          "016": "Of works on specific subjects",
+          "017": "General subject catalogues"
+        }
+      },
+      "020": {
+        "description": "Library and Information Sciences",
+        "children": {
+          "021": "Relationships of libraries and archives",
+          "023": "Personnel management",
+          "025": "Operations of libraries and archives",
+          "027": "General libraries and archives"
+        }
+      },
+      "070": "News media, journalism and publishing",
+      "090": "Manuscripts and rare books"
+    }
+  },
+  "100": {
+    "description": "Philosophy and Psychology",
+    "children": {
+      "110": "Metaphysics",
+      "150": "Psychology",
+      "160": "Philosophical logic",
+      "170": "Ethics"
+    }
+  },
+  "200": {
+    "description": "Religion",
+    "children": {
+      "230": "Christianity",
+      "240": "Christian moral and devotional theology",
+      "270": "History, geographic treatment, biography",
+      "280": {
+        "description": "Denominations and sects of Christian church",
+        "children": {
+          "282": "Roman catholic church",
+          "283": "Anglican churches",
+          "286": "Baptist, Restoration and congregational",
+          "289": "Other denominations and sects"
+        }
+      }
+    }
+  },
+  "300": {
+    "description": "Social Sciences",
+    "children": {
+      "330": "Economics",
+      "340": {
+        "description": "Law",
+        "children": {
+          "341": "Law of nations",
+          "345": "Criminal law",
+          "346": "Private law",
+          "348": "Laws, regulations, cases"
+        }
+      },
+      "380": {
+        "description": "Commerce, communications, transportation",
+        "children": {
+          "383": "Postal communication",
+          "385": "Railroad transportation",
+          "387": "Water, air, space transportation",
+          "389": "Metrology and standardization"
+        }
+      },
+      "390": "Customs, etiquette, folklore"
+    }
+  },
+  "400": {
+    "description": "Language",
+    "children": {
+      "410": "Linguistics",
+      "420": "English and Old English Languages",
+      "440": "French and related languages",
+      "450": "Italian, Romanian and related languages"
+    }
+  },
+  "500": {
+    "description": "Science",
+    "children": {
+      "530": "Physics",
+      "560": "Fossils and prehistoric life",
+      "570": {
+        "description": "Biology",
+        "children": {
+          "572": "Biochemistry",
+          "576": "Genetics and evolution",
+          "578": "Natural history of organisms",
+          "579": "Microorganisms, fungi and algae"
+        }
+      },
+      "590": "Animals"
+    }
+  },
+  "600": {
+    "description": "Technology",
+    "children": {
+      "610": {
+        "description": "Medicine and Health",
+        "children": {
+          "611": "Human anatomy, cytology, histology",
+          "614": "Forensic medicine; incidence of disease",
+          "616": "Diseases",
+          "617": "Surgery and related medical specialties"
+        }
+      },
+      "630": "Agriculture",
+      "660": {
+        "description": "Chemical Engineering",
+        "children": {
+          "661": "Technology of industrial chemicals",
+          "662": "Explosives, fuel and related products",
+          "666": "Ceramic and allied technologies",
+          "669": "Metallurgy"
+        }
+      },
+      "690": "Construction of buildings"
+    }
+  },
+  "700": {
+    "description": "Arts and Recreation",
+    "children": {
+      "720": "Architecture",
+      "730": "Sculpture, ceramics and metalwork",
+      "770": {
+        "description": "Photography, computer art, film, video",
+        "children": {
+          "774": "Holography",
+          "776": "Computer art",
+          "777": "Cinematography and videography",
+          "779": "Photographic images"
+        }
+      },
+      "780": {
+        "description": "Music",
+        "children": {
+          "784": "Instruments and instrumental ensembles",
+          "786": "Keyboard and other instruments",
+          "787": "Stringed Instruments",
+          "788": "Wind Instruments"
+        }
+      }
+    }
+  },
+  "800": {
+    "description": "Literature",
+    "children": {
+      "810": "American Literature in English",
+      "820": "English and Old English literature",
+      "830": "German and related literatures",
+      "890": {
+        "description": "Other literatures",
+        "children": {
+          "894": "Altaic, Uralic, Hyperborean and Dravidian",
+          "895": "Literatures of East and Southeast Asia",
+          "896": "African literatures",
+          "899": "Austronesian and other languages"
+        }
+      }
+    }
+  },
+  "900": {
+    "description": "History and Geography",
+    "children": {
+      "910": "Geography and travel",
+      "940": "History of Europe",
+      "960": {
+        "description": "History of Africa",
+        "children": {
+          "962": "Egypt, Sudan, South Sudan",
+          "966": "West Africa and offshore islands",
+          "968": "South Africa and southern Africa",
+          "969": "South Indian Ocean islands"
+        }
+      },
+      "970": "History of North America"
+    }
+  }
+}

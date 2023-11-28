@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="LibraryGamesApp.UserControls_Folder.OptionsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LibraryGamesApp.UserControls_Folder"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="700">
+    <StackPanel Orientation="Horizontal">
+
+        <Border Width="233" Background="White" Margin="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height ="1*"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Row="0" Source="/Resources/library-bookshelf.jpg" Stretch="Fill" MaxHeight="210" MaxWidth="210"/>
+                
+                <Button x:Name="btnGame1" Grid.Row="1" Content="Replacing Books" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnGame1_Click" />
+
+                <Button x:Name="btnExplain1" Grid.Row="2" Content="How To Play?" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnExplain1_Click" />
+            </Grid>
+        </Border>
+
+        <Border Width="233" Background="White" Margin="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height ="1*"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Row="0" Source="/Resources/mitsuhiko-tsuburaya-detective-conan-full-score-of-fear-case-closed-season-1-music-tsuburaya-gosho-aoyama-jimmy-kudo-case-closed-detective-glasses-thumbnail.png" Stretch="Fill" MaxHeight="210" MaxWidth="210" />
+
+                <Button x:Name="btnGame2" Grid.Row="1" Content="Identifying Areas" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnGame2_Click" />
+
+                <Button x:Name="btnExplain2" Grid.Row="2" Content="How To Play?" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnExplain2_Click"  />
+            </Grid>
+        </Border>
+
+        <Border Width="233" Background="White" Margin="0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height ="1*"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Row="0" Source="/Resources/download (1).jpeg" Stretch="Fill" MaxHeight="210" MaxWidth="210" />
+
+                <Button x:Name="btnGame3" Grid.Row="1" Content="Finding Call Numbers" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnGame3_Click" />
+
+                <Button x:Name="btnExplain3" Grid.Row="2" Content="How To Play?" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+            </Grid>
+        </Border>
+
+        
+        
+    </StackPanel>
+</UserControl>
