@@ -21,6 +21,6 @@
                 <Button x:Name="btn4" Content="Button 1D" FontSize="20" Padding="8" />
             </StackPanel>
         </StackPanel>
-        <Label x:Name="timerLabel" Content="Time:00:00" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="20" Foreground="Black" Panel.ZIndex="999"/>
+        <Label x:Name="timerLabel" Content="Time:00:00" HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="20" Foreground="Wheat" Panel.ZIndex="999"/>
     </Grid>
 </UserControl>
